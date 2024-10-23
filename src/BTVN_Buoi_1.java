@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Student{
+class Student{
     String ten, tuoi, diaChi, hocLuc;
     double diemToan, diemVan, diemAnh, diemTrungBinh;
     Student(double diemToan, double diemVan, double diemAnh){

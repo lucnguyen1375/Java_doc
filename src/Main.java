@@ -1,20 +1,20 @@
 import java.util.Scanner;
 
-class Student{
+class Student1{
     String name, ID;
-    Student(String name, String ID){
+    Student1(String name, String ID){
         this.name = name;
         this.ID = ID;
     }
-    Student(){}
+    Student1(){}
 }
 public  class  Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Student hocSinhA;
-        hocSinhA = new Student(sc.nextLine(), sc.nextLine());
-        Student hocSinhB = new Student();
+        Student1 hocSinhA;
+        hocSinhA = new Student1(sc.nextLine(), sc.nextLine());
+        Student1 hocSinhB = new Student1();
         System.out.println(hocSinhA.ID);
     }
 }
