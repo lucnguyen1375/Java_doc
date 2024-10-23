@@ -32,13 +32,12 @@ public class Student{
     }
 }
 
-public class StudentManager{
-    void inDiem(BTVN_Buoi_1.Student s) {
+class StudentManager{
+    public static void inDiem(Student s) {
         System.out.println(s.ten + " " + s.tuoi + " " + s.diaChi + " " + s.diemToan + " " + s.diemVan + " " + s.diemAnh + " " + s.diemTrungBinh + " " + s.hocLuc);
     }
 }
 public class BTVN_Buoi_1 {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
