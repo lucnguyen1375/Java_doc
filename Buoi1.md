@@ -46,7 +46,7 @@ Một số kiểu dữ liệu nguyên thủy trong java.
 | short        | 2 byte     | Kiểu số nguyên                     | -2^15 đến 2^15 - 1 |
 | int          | 4 byte     | Kiểu số nguyên                     | -2^31 đến 2^31 - 1 |
 | long         | 8 byte     | Kiểu số nguyên                     | -2^63 đến 2^63 -1  |
-| float        | 3 byte     | Kiểu số thực                       |                    |
+| float        | 4 byte     | Kiểu số thực                       |                    |
 | double       | 8 byte     | Kiểu số thực                       |                    |
 
 **Cách khai báo biến**
